@@ -1,0 +1,59 @@
+.header{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 250px;
+  width: 100%;
+}
+
+.uno{
+  grid-column: 4/8;
+  grid-row: 1/5;
+}
+
+.dos{
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.tres{
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.cuatro{
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.cinco{
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+.cinco img{
+  border-radius: 50%
+}
+
+.seis{
+  grid-column: 8/11;
+  grid-row: 3/5;
+}
+
+.siete{
+  grid-column: 8/9;
+  grid-row: 1/3;
+}
+
+.ocho{
+  grid-column: 9/10;
+  grid-row: 1/3;
+}
+
+.nueve{
+  grid-column: 10/11;
+  grid-row: 1/3;
+  border-radius: 50%
+}
+.nueve img{
+  border-radius: 50%
+}
