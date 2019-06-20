@@ -1,3 +1,7 @@
+body{
+  background: rgba(169, 208, 100, 0.4);
+}
+
 .header{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -56,4 +60,117 @@
 }
 .nueve img{
   border-radius: 50%
+}
+
+.frame{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 100%;
+  width: 100%;
+}
+
+.subf1{
+  grid-column:1/2;
+  grid-row: 1/17;
+}
+
+.subf2{
+  grid-column:8/9;
+  grid-row: 1/17;
+}
+
+.subf3{
+  background: rgba(119, 127, 105, 0.7);
+  grid-column: 2/8;
+  grid-row: 1/5;
+  padding: 10px;
+  color: darkslategrey;
+}
+
+.subf3 h1{
+  margin-left: 215px;
+  font-size: 4em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.subf3 p{
+  font-family: helvetica;
+  letter-spacing: 1px;
+}
+
+.subf4{
+  grid-column: 2/4;
+  grid-row: 5/7;
+  border: 1px solid red;
+}
+
+.subf5{
+  grid-column: 4/8;
+  grid-row: 5/7;
+  border: 1px solid blue;
+}
+
+.subf6{
+  grid-column: 2/6;
+  grid-row: 7/9;
+  border: 1px solid red;
+}
+
+.subf7{
+  grid-column: 6/8;
+  grid-row: 7/9;
+  border: 1px solid blue;
+}
+
+.subf8{
+  grid-column: 2/4;
+  grid-row: 9/11;
+  border: 1px solid red;
+}
+
+.subf9{
+  grid-column: 4/8;
+  grid-row: 9/11;
+  border: 1px solid blue;
+}
+
+.subf10{
+  grid-column: 2/6;
+  grid-row: 11/13;
+  border: 1px solid red;
+}
+
+.subf11{
+  grid-column: 6/8;
+  grid-row: 11/13;
+  border: 1px solid blue;
+}
+
+.subf12{
+  grid-column: 2/4;
+  grid-row: 13/15;
+  border: 1px solid red;
+}
+
+.subf13{
+  grid-column: 4/8;
+  grid-row: 13/15;
+  border: 1px solid blue;
+}
+
+.subf14{
+  grid-column: 2/6;
+  grid-row: 15/17;
+  border: 1px solid red;
+}
+
+.subf15{
+  grid-column: 6/8;
+  grid-row: 15/17;
+  border: 1px solid red;
 }
