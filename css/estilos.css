@@ -2,6 +2,15 @@ body{
   background: rgba(169, 208, 100, 0.4);
 }
 
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  color: darkslategrey;
+}
+
+p{
+  color: darkslategrey;
+}
+
 .header{
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -63,7 +72,7 @@ body{
 }
 
 .frame{
-  border: 1px solid red;
+  border: 1px solid silver;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(16, 1fr);
@@ -82,7 +91,7 @@ body{
 }
 
 .subf3{
-  background: rgba(119, 127, 105, 0.7);
+  background-image: linear-gradient(#95A082, #DCEDBF);
   grid-column: 2/8;
   grid-row: 1/5;
   padding: 10px;
@@ -106,71 +115,147 @@ body{
 .subf4{
   grid-column: 2/4;
   grid-row: 5/7;
-  border: 1px solid red;
+  border: 1px solid silver;
 }
 
 .subf5{
   grid-column: 4/8;
   grid-row: 5/7;
-  border: 1px solid blue;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082, #DCEDBF);
+}
+
+.subf5 h2{
+  margin: 2px 5px 5px 10px;
+}
+.subf5 p{
+  margin: 5px 5px;
+  letter-spacing: 1px;
 }
 
 .subf6{
   grid-column: 2/6;
   grid-row: 7/9;
-  border: 1px solid red;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082, #DCEDBF);
+}
+
+.subf6 h2{
+  margin: 2px 5px;
+}
+.subf6 p{
+  margin: 10px 5px;
+  letter-spacing: 1px;
 }
 
 .subf7{
   grid-column: 6/8;
   grid-row: 7/9;
-  border: 1px solid blue;
+  border: 1px solid silver;
 }
 
 .subf8{
   grid-column: 2/4;
   grid-row: 9/11;
-  border: 1px solid red;
+  border: 1px solid silver;
 }
 
 .subf9{
   grid-column: 4/8;
   grid-row: 9/11;
-  border: 1px solid blue;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082, #DCEDBF);
+}
+
+.subf9 h2{
+  margin: 2px 5px;
+}
+.subf9 p{
+  margin: 10px 5px;
+  letter-spacing: 1px;
 }
 
 .subf10{
   grid-column: 2/6;
   grid-row: 11/13;
-  border: 1px solid red;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082, #DCEDBF);
+}
+
+.subf10 h2{
+  margin: 2px 5px;
+}
+.subf10 p{
+  margin: 10px 5px;
+  letter-spacing: 1px;
 }
 
 .subf11{
   grid-column: 6/8;
   grid-row: 11/13;
-  border: 1px solid blue;
+  border: 1px solid silver;
 }
 
 .subf12{
   grid-column: 2/4;
   grid-row: 13/15;
-  border: 1px solid red;
+  border: 1px solid silver;
 }
 
 .subf13{
   grid-column: 4/8;
   grid-row: 13/15;
-  border: 1px solid blue;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082, #DCEDBF);
 }
+
+.subf13 h2{
+  margin: 2px 5px;
+}
+.subf13 p{
+  margin: 10px 5px;
+  letter-spacing: 1px;
+}
+
 
 .subf14{
   grid-column: 2/6;
   grid-row: 15/17;
-  border: 1px solid red;
+  border: 1px solid silver;
+  background-image: linear-gradient(#DCEDBF, #95A082);
 }
 
+.subf14 h2{
+  margin: 2px 5px;
+}
+.subf14 p{
+  margin: 10px 5px;
+  letter-spacing: 1px;
+}
 .subf15{
   grid-column: 6/8;
   grid-row: 15/17;
-  border: 1px solid red;
+  border: 1px solid silver;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid silver;
+  height: 90px;
+  width: 100%;
+  background-image: linear-gradient(#95A082, #DCEDBF);
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: 0px 0px 4px #fff;
+  font-weight: bolder;
+}
+
+.footer p{
+  align-self: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: darkslategrey;
+
 }
